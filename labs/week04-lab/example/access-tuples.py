@@ -17,6 +17,7 @@ print(f"x: {x}, y: {y}")                # x: 10, y: 20
 # Multiple assignment using tuples
 person = ("Alice", 25, "Engineer")
 name, age, job = person
+name = person[0]
 print(f"Name: {name}, Age: {age}, Job: {job}")
 
 # Swapping variables using tuples

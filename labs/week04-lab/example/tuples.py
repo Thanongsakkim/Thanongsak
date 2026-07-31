@@ -1,3 +1,4 @@
+# สัญญาลักษณ์()
 # Empty tuple
 empty_tuple = ()
 another_empty_tuple = tuple()
