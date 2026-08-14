@@ -5,6 +5,9 @@
 # =============================================================================
 # PART 1: BASIC FUNCTIONS
 # =============================================================================
+
+#  functions คือแบ่งโปรแกรมใหญ่ๆให้เป็นโปรแกรมเล็กๆ สามารถแก้ไขได้ง่าย
+
 print("=== PART 1: BASIC FUNCTIONS ===")
 
 # Example 1: Simple function without parameters
@@ -21,7 +24,7 @@ print()
 # Example 2: Function that performs a task
 def draw_separator():
     """Draws a line separator"""
-    print("-" * 40)
+    print("-" * 40) # ปริ้นออกมา 40 ตัว
 
 draw_separator()
 print("This is between separators")

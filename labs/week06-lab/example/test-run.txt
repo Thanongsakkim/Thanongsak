@@ -1,0 +1,66 @@
+# part 1
+# example
+
+Welcome to Python functions!
+Hello, World!
+
+
+# part 2
+# example
+
+Calling introduce_preson
+Hi! my name is Diana.
+I am 25 years old.
+I live in New York.
+
+Hi! my name is Eve.
+I am 30 years old.
+I live in Los Angeles.
+
+# part 3
+# example
+
+Claculating rectangle areas:
+Rectang with length 5 and width 3
+Area = 5 x 3 = 15
+
+Rectang with length 10 and width 7
+Area = 10 x 7 = 70
+
+# part 3
+# example 1
+
+Using functions that return values:
+5 + 3 = 8
+10 + 7 = 17
+Sum of both results: 25
+
+# part 
+# example
+
+Circle calculation:
+Circle with radius 5:
+Area: 78.54
+Circumference: 31.42
+
+# part 4
+# exapmle 1
+
+####
+Using default parameters:
+Hello, Mr./Ms. Smith!
+Hello, Dr. Johnson!
+Hello, Prof. Brown!
+
+####
+
+# part
+# example
+
+####
+Multiple default parameters:
+Profile: Alice, Age: 18, Country: Unknown
+Profile: Bob, Age: 25, Conutry: Unknown
+Profile: Charlie, Age: 30, Country: USA
+
+####
