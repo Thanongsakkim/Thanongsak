@@ -40,12 +40,12 @@ except ValueError:
 
 print("\n=== STRING INDEXING ===")
 fruit = 'banana'
-print(f"fruit = {fruit}")
+print(f"fruit = {fruit}") #banana
 print(f"fruit[1] = {fruit[1]}")  # 'a'
 
 n = 3
 w = fruit[n - 1]  # fruit[2]
-print(f"n = {n}")
+print(f"n = {n}") #n = 3
 print(f"w = fruit[n-1] = {w}")  # 'n'
 
 # Show indexing diagram
@@ -58,11 +58,11 @@ print("-6-5-4-3-2-1")
 # 4. TRAVERSING STRINGS
 # ===========================
 
-print("\n=== TRAVERSING STRINGS ===")
+print("\n=== TRAVERSING STRINGS ===") #=== TRAVERSING STRINGS ===
 message = "hello"
 index = 0
 
-print("Method 1: Using for loop with enumerate")
+print("Method 1: Using for loop with enumerate") #Method 1: Using for loop with enumerate
 for i, char in enumerate(message):
     print(f"message[{i}] = {char}")
 
@@ -73,16 +73,16 @@ for char in message:
     index += 1
 
 # ===========================
-# 5. CONCATENATION AND MULTIPLICATION
+# 5. CONCATENATION AND MULTIPLICATION (ต่อ เชื่อม ทำซ้ำ)
 # ===========================
 
-print("\n=== CONCATENATION AND MULTIPLICATION ===")
+print("\n=== CONCATENATION AND MULTIPLICATION ===") #=== CONCATENATION AND MULTIPLICATION ===
 str1 = 'Hello'
 str2 = 'World!'
 
 # Concatenation
 result = str1 + str2
-print(f"str1 + str2 = {result}")
+print(f"str1 + str2 = {result}") #str1 + str2 = HelloWorld!
 
 # Multiplication
 repeat = str1 * 3
@@ -109,7 +109,7 @@ text = 'Hello World'
 for letter in text:
     if letter == 'l':
         count += 1
-print(f"{count} letters 'l' found in '{text}'")
+print(f"{count} letters 'l' found in '{text}'") # 3 letters 'l' found in 
 
 # ===========================
 # 8. MEMBERSHIP TEST
