@@ -1,0 +1,49 @@
+ขอให้สร้าง function ชื่อ deposit(money) ที่เป็นโปรแกรมจำลองการฝากเงินเข้าบัญชี โดยกำหนดยอดเงินเริ่มต้นเป็น  1,000  บาท โปรแกรมต้องรับจำนวนเงินที่ต้องการฝากจากผู้ใช้ 1 ครั้ง แล้วคำนวณยอดคงเหลือใหม่
+
+ใช้  try-except  เพื่อจัดการกรณีผู้ใช้กรอกข้อมูลที่แปลงเป็นตัวเลขไม่ได้ เช่น  abc 
+หากจำนวนเงินฝากน้อยกว่าหรือเท่ากับ  0  ให้ใช้  raise ValueError  พร้อมข้อความ  จำนวนเงินฝากต้องมากกว่า 0 
+หากข้อมูลถูกต้อง ให้ใช้  else  แสดงยอดเงินคงเหลือใหม่
+ใช้  finally  แสดงข้อความ  สิ้นสุดรายการฝากเงิน  เสมอ
+ห้ามใช้  except:  แบบไม่ระบุชนิดข้อผิดพลาด
+เมื่อสร้าง function แล้ว ขอให้ทดลองใช้ function ที่สร้างด้วย
+
+ตัวอย่างหน้าจอ กรณีปกติ
+ยอดเงินเริ่มต้น: 1000 บาท
+กรอกจำนวนเงินที่ต้องการฝาก: 500
+
+ฝากเงินสำเร็จ
+ยอดเงินคงเหลือ: 1500.00 บาท
+สิ้นสุดรายการฝากเงิน
+
+ตัวอย่างหน้าจอ กรณ๊มีการกรอกข้อมูลผิดพลาด
+
+ยอดเงินเริ่มต้น: 1000 บาท
+กรอกจำนวนเงินที่ต้องการฝาก: -200
+
+เกิดข้อผิดพลาด: จำนวนเงินฝากต้องมากกว่า 0
+สิ้นสุดรายการฝากเงิน
+
+วิธีการส่ง ขอให้ส่งด้วยการ turnin เป็น URL commit link ล่าสุด (แบบเดียวกับการส่งในห้องเรียน) ที่สะท้อนการเพิ่มไฟล์ .py ใหม่และ source code ที่พัฒนา
+
+####
+
+def deposit(money):
+  try:
+      amount = float(input("Enter deposit amount: "))
+      if amount <= 0:
+          raise valueError("Deposit amount must be greater than 0")
+  except ValueError as e:
+      print(f"Error: {e}")
+  else:
+      money += amount
+      print("Deposit successful")
+      print(f"Remaining balance: {money:.2f} baht")
+  finally:
+      print("End of deposit transaction")
+
+  return money
+
+if __name__ == "__main__":
+balance = 1000
+print(f"Initial balance: {balance} bath")
+blance = deposit(balance)

@@ -22,3 +22,23 @@ class Rectangle:
 rect = Rectangle(10, 5)
 print(rect.get_area())       # Should print 50
 print(rect.get_perimeter())  # Should print 30
+
+#Class Circle
+
+class Circle:
+    def init(self,radius):
+        self.radius=radius
+
+#Methond to get the area
+
+def get_area(self):
+    return 3.14 * self.radius * self.radius
+
+#Methond to get the perimeter
+
+def get_circumference(self):
+    return 2 * 3.14 * self.radius
+
+rect = Circle(5)
+print(rect.get_area()) #Should print 78.5
+print(rect.get_circumference()) #Should print 3.14
