@@ -40,12 +40,20 @@ except ValueError:
 
 print("\n=== STRING INDEXING ===")
 fruit = 'banana'
+<<<<<<< HEAD
 print(f"fruit = {fruit}") #banana
+=======
+print(f"fruit = {fruit}")
+>>>>>>> upstream/main
 print(f"fruit[1] = {fruit[1]}")  # 'a'
 
 n = 3
 w = fruit[n - 1]  # fruit[2]
+<<<<<<< HEAD
 print(f"n = {n}") #n = 3
+=======
+print(f"n = {n}")
+>>>>>>> upstream/main
 print(f"w = fruit[n-1] = {w}")  # 'n'
 
 # Show indexing diagram
@@ -58,11 +66,19 @@ print("-6-5-4-3-2-1")
 # 4. TRAVERSING STRINGS
 # ===========================
 
+<<<<<<< HEAD
 print("\n=== TRAVERSING STRINGS ===") #=== TRAVERSING STRINGS ===
 message = "hello"
 index = 0
 
 print("Method 1: Using for loop with enumerate") #Method 1: Using for loop with enumerate
+=======
+print("\n=== TRAVERSING STRINGS ===")
+message = "hello"
+index = 0
+
+print("Method 1: Using for loop with enumerate")
+>>>>>>> upstream/main
 for i, char in enumerate(message):
     print(f"message[{i}] = {char}")
 
@@ -73,16 +89,27 @@ for char in message:
     index += 1
 
 # ===========================
+<<<<<<< HEAD
 # 5. CONCATENATION AND MULTIPLICATION (ต่อ เชื่อม ทำซ้ำ)
 # ===========================
 
 print("\n=== CONCATENATION AND MULTIPLICATION ===") #=== CONCATENATION AND MULTIPLICATION ===
+=======
+# 5. CONCATENATION AND MULTIPLICATION
+# ===========================
+
+print("\n=== CONCATENATION AND MULTIPLICATION ===")
+>>>>>>> upstream/main
 str1 = 'Hello'
 str2 = 'World!'
 
 # Concatenation
 result = str1 + str2
+<<<<<<< HEAD
 print(f"str1 + str2 = {result}") #str1 + str2 = HelloWorld!
+=======
+print(f"str1 + str2 = {result}")
+>>>>>>> upstream/main
 
 # Multiplication
 repeat = str1 * 3
@@ -109,7 +136,11 @@ text = 'Hello World'
 for letter in text:
     if letter == 'l':
         count += 1
+<<<<<<< HEAD
 print(f"{count} letters 'l' found in '{text}'") # 3 letters 'l' found in 
+=======
+print(f"{count} letters 'l' found in '{text}'")
+>>>>>>> upstream/main
 
 # ===========================
 # 8. MEMBERSHIP TEST
@@ -388,4 +419,108 @@ print(f"Method 2 (loop): {reversed_str}")
 # Method 3: Using join and reversed
 print(f"Method 3 (join): {''.join(reversed(text))}")
 
+<<<<<<< HEAD
 print("\n=== ALL EXAMPLES COMPLETED ===")
+=======
+print("\n=== ALL EXAMPLES COMPLETED ===")
+
+
+"""
+### 1) ข้อ 1: สวัสดีคนที่กรอกชื่อ
+เขียนโปรแกรมที่:
+- รับชื่อจากผู้ใช้
+- แสดงผลเป็นข้อความว่า “สวัสดี, <ชื่อ>!”
+- จากนั้นแสดงชื่อด้วยตัวพิมพ์ใหญ่ทั้งหมด
+
+ตัวอย่าง:
+- Input: `pim`
+- Output:
+  - สวัสดี, pim!
+  - PIM
+
+คำแนะนำ:
+- ใช้ `input()`
+- ใช้ `.upper()`
+
+---
+
+### 2) ข้อ 2: นับจำนวนตัวอักษร 'a' ในคำ
+เขียนโปรแกรมที่:
+- รับข้อความจากผู้ใช้
+- นับจำนวนตัวอักษร `'a'` ในข้อความ
+- แสดงผลจำนวนที่นับได้
+
+ตัวอย่าง:
+- Input: `banana`
+- Output: `มีตัวอักษร a ทั้งหมด 3 ตัว`
+
+คำแนะนำ:
+- ใช้ loop `for`
+- ใช้ `if letter == 'a'`
+
+---
+
+### 3) ข้อ 3: แยกคำและแปลงเป็นข้อความใหม่
+เขียนโปรแกรมที่:
+- รับประโยคจากผู้ใช้
+- แยกประโยคออกเป็นคำ ๆ
+- ต่อคำด้วยเครื่องหมาย `-`
+- แสดงผลข้อความที่ถูกจัดรูปแบบใหม่
+
+ตัวอย่าง:
+- Input: `python is easy`
+- Output: `python-is-easy`
+
+คำแนะนำ:
+- ใช้ `split()`
+- ใช้ `'-'.join()`
+
+---
+
+### 4) ข้อ 4: ตรวจสอบรหัสผ่านแบบง่าย
+เขียนโปรแกรมที่:
+- รับข้อความจากผู้ใช้
+- ตรวจว่าเป็นตัวเลขทั้งหมดหรือไม่
+- ถ้าเป็นตัวเลขทั้งหมด ให้แสดง “Valid number”
+- ถ้าไม่ใช่ ให้แสดง “Please enter a valid number!”
+
+ตัวอย่าง:
+- Input: `12345`
+- Output: `Valid number`
+
+- Input: `abc123`
+- Output: `Please enter a valid number!`
+
+คำแนะนำ:
+- ใช้ `isdigit()`
+- ใช้ `try/except` ถ้าต้องแปลงเป็น int
+
+---
+
+### 5) ข้อ 5: เขียนโปรแกรมจัดรูปแบบข้อมูลคน
+เขียนโปรแกรมที่:
+- รับชื่อ-นามสกุลจากผู้ใช้
+- แยกชื่อและนามสกุลออกจากกัน
+- แสดงผลเป็น:
+  - ชื่อเต็ม
+  - นามสกุล
+  - ชื่อย่อ (ตัวแรกของชื่อและนามสกุล)
+  - จำนวนคำทั้งหมดในชื่อเต็ม
+
+ตัวอย่าง:
+- Input: `pim chai`
+- Output:
+  - ชื่อเต็ม: pim chai
+  - ชื่อ: pim
+  - นามสกุล: chai
+  - ชื่อย่อ: p.c.
+  - จำนวนคำ: 2
+
+คำแนะนำ:
+- ใช้ `split()`
+- ใช้ index ของ list
+- ใช้ slicing เช่น `name[0]`
+
+---
+"""
+>>>>>>> upstream/main

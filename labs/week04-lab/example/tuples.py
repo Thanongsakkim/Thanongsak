@@ -1,4 +1,7 @@
+<<<<<<< HEAD
 # สัญญาลักษณ์()
+=======
+>>>>>>> upstream/main
 # Empty tuple
 empty_tuple = ()
 another_empty_tuple = tuple()

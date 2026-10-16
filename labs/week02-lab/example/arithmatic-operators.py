@@ -2,7 +2,11 @@
 # DEMO 1: Basic Arithmetic Operators
 # =============================================================================
 
+<<<<<<< HEAD
    
+=======
+print("=" * 50)
+>>>>>>> upstream/main
 print("DEMO 1: Basic Arithmetic Operators")
 print("=" * 50)
 

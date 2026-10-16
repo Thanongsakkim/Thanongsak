@@ -1,7 +1,10 @@
+<<<<<<< HEAD
 # arimatic operators --> + - * / % // **
 # comparisonopeators --> == != < > <= >=
 # logiccal operatos --> and (&&) or (||) not (!)
 
+=======
+>>>>>>> upstream/main
 # Multiple conditions with logical operators
 username = "admin"
 password = "12345"

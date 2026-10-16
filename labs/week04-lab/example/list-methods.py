@@ -2,28 +2,44 @@
 numbers = [3, 1, 4, 1, 5, 9, 2, 6, 5]
 fruits = ["apple", "banana", "apple", "orange"]
 
+<<<<<<< HEAD
 # len = นับสมาชิก
 # count = นับสมาชิกที่ซ้ำ
+=======
+>>>>>>> upstream/main
 # Length and counting
 print(f"Length: {len(numbers)}")           # 9
 print(f"Count of 1: {numbers.count(1)}")   # 2
 print(f"Count of apple: {fruits.count('apple')}")  # 2
 
+<<<<<<< HEAD
 # index = บอกตำแหน่งสมาชิก
+=======
+>>>>>>> upstream/main
 # Finding elements
 print(f"Index of 4: {numbers.index(4)}")   # 2
 print(f"Index of banana: {fruits.index('banana')}")  # 1
 
+<<<<<<< HEAD
 # copy = ทำสำเนา 
 # Sorting = จัดเรียงข้อมูลใน list
+=======
+# Sorting
+>>>>>>> upstream/main
 numbers_copy = numbers.copy()
 numbers_copy.sort()                         # Sort in place
 print(f"Sorted: {numbers_copy}")           # [1, 1, 2, 3, 4, 5, 5, 6, 9]
 
+<<<<<<< HEAD
 numbers_copy.sort(reverse=True)             # Sort descending เรียงจากมากไปน้อย
 print(f"Reverse sorted: {numbers_copy}")   # [9, 6, 5, 5, 4, 3, 2, 1, 1]
 
 # sorted เรียงและสร้าง list ขึ้นมาใหม่
+=======
+numbers_copy.sort(reverse=True)             # Sort descending
+print(f"Reverse sorted: {numbers_copy}")   # [9, 6, 5, 5, 4, 3, 2, 1, 1]
+
+>>>>>>> upstream/main
 # sorted() function - returns new list
 sorted_numbers = sorted(numbers)
 print(f"Original: {numbers}")              # [3, 1, 4, 1, 5, 9, 2, 6, 5]

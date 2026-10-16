@@ -5,9 +5,12 @@
 # =============================================================================
 # PART 1: BASIC FUNCTIONS
 # =============================================================================
+<<<<<<< HEAD
 
 #  functions คือแบ่งโปรแกรมใหญ่ๆให้เป็นโปรแกรมเล็กๆ สามารถแก้ไขได้ง่าย
 
+=======
+>>>>>>> upstream/main
 print("=== PART 1: BASIC FUNCTIONS ===")
 
 # Example 1: Simple function without parameters
@@ -24,7 +27,11 @@ print()
 # Example 2: Function that performs a task
 def draw_separator():
     """Draws a line separator"""
+<<<<<<< HEAD
     print("-" * 40) # ปริ้นออกมา 40 ตัว
+=======
+    print("-" * 40)
+>>>>>>> upstream/main
 
 draw_separator()
 print("This is between separators")

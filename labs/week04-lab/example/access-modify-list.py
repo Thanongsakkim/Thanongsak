@@ -1,6 +1,7 @@
 fruits = ["apple", "banana", "orange", "grape", "kiwi"]
 
 # Positive indexing (0-based)
+<<<<<<< HEAD
 print(f"First fruit: {fruits[0]}")       # apple
 print(f"Second fruit: {fruits[1]}")      # banana
 print(f"Last fruit: {fruits[4]}")        # kiwi
@@ -8,6 +9,15 @@ print(f"Last fruit: {fruits[4]}")        # kiwi
 # Negative indexing
 print(f"Last fruit: {fruits[-1]}")       # kiwi
 print(f"Second last: {fruits[-2]}")      # grape
+=======
+print(f"First fruit: {fruits[0]}")      # apple
+print(f"Second fruit: {fruits[1]}")     # banana
+print(f"Last fruit: {fruits[4]}")       # kiwi
+
+# Negative indexing
+print(f"Last fruit: {fruits[-1]}")      # kiwi
+print(f"Second last: {fruits[-2]}")     # grape
+>>>>>>> upstream/main
 
 # List slicing
 print(f"First 3 fruits: {fruits[0:3]}")     # ['apple', 'banana', 'orange']
